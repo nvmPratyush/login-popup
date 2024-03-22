@@ -12,25 +12,21 @@
 
 </head>
 <body>
-  <div class="container">
-    <div class="vertical-center">
-      <button id="loginButton">Login</button> 
+    <div class="center">
+      <button id="loginButton"><span>Login</span></button> 
     </div>
-  </div>
   <div id="loginPopup" class="popup">
-    <div class="popup-content">
+    <div id="popup-content">
       <span class="close" id="closePopup">&times;</span>
-      <h2>Login Form</h2>
+      <span id="head">Login Form</span>
       <!-- Your login form content goes here -->
-      <form>
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-
-        <button type="submit">Login</button>
-      </form>
+      <label for="username" id="user">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <br>
+      <label for="password" id="pass">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <br>
+      <button type="submit" id="submit">Login</button>
     </div>
   </div>
 
